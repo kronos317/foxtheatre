@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>Q: Could you explain service and processing fees?</string>
+		<key>answer</key>
+		<string>It should be noted that in all but the rarest cases, the base ticket price pays the artists&apos; fees. To provide our own in-house ticketing services, we must employ box office staff, maintain a website and the necessary equipment for those services. The reality of providing these services necessitates service charges. We are a small venue and those fees are based on the total amount of tickets we can sell to any given event, and, how many tickets are actually sold to our events. Service fees differ depending on where you purchase your tickets. It is most expensive to purchase tickets in advance via our website. It is slightly less expensive to purchase tickets over the phone or in person through our Box Office, and least expensive to purchase tickets in person at the door the night of the show. You will not incur a Service or Processing Fee when you purchase your tickets at the door the night of the show. However, when you wait to buy tickets at the door, you run the risk of the show being sold out. There is never a processing fee at the door, as we do not accept credit cards for tickets purchased at the door.Processing fees are included to cover the cost of credit card transactions. The credit card processing company charges us a percentage of the sale price. We have had to build in the Processing Fee for using a credit card to purchase tickets as we use the remainder of the ticket price (ie: the base price of the ticket) to pay the artist, and the service fee to cover our costs in providing ticketing services.In reality, we have lower service fees than TicketMaster, Music Today, and many other Corporate ticketing companies as we are an Independent Venue that does everything &quot;in house&quot;. The Service and Processing Fees are put in place simply to help us recoup our costs in providing a convenient way for our customers to buy tickets.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Q: Where can I buy tickets?</string>
+		<key>answer</key>
+		<string>Tickets are available 24 hours a day online at Fox Theatre Ticketing. Tickets are available at our box office, located directly across the street from the Fox in Albums on the Hill. Box office hours are Monday-Saturday, 10am-8:30pm and Sunday noon-6pm. You can order tickets over the phone by calling 303-443-3399. We also sell tickets at Bart&apos;s CD Cellar on Pearl Street and Twist &amp; Shout in Denver. Last but not least, we sell tickets the night of the show at the front door box office.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Q: I saw on another website that (your favorite band) is playing at the Fox, but the show isn&apos;t listed at all or no tickets are available yet. When will tickets go on sale?</string>
+		<key>answer</key>
+		<string>Just keep checking back to our site. We will list shows available for purchase as soon as we have all of our details together. The best way to be informed of upcoming show announcements is to join our mailer. Just go to the Fox Theatre home page and under &quot;Join Our Mailer&quot;, type in your email and hit the subscribe button.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Q: How do I unsubscribe from your mailing list?</string>
+		<key>answer</key>
+		<string>To unsubscribe your email from our mailers, go to our home page. On the right hand side of the page you will see a heading that says &quot;Join Our Mailer&quot;. Enter your name in the textbox and hit the unsubscribe button.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Q: Is smoking allowed inside the Fox Theatre?</string>
+		<key>answer</key>
+		<string>Per Boulder County regulations, smoking is not permitted inside of any bar or restaurant. Smokers will be permitted re-entry, however, upon leaving the venue to smoke.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Q: What does AA and LAA stand for?</string>
+		<key>answer</key>
+		<string>AA means &quot;all ages show&quot;. Please note that even if a show is all ages, you must be at least 12 years of age to enter the venue. LAA - Limited All Ages *all shows are 21+ unless otherwise noted!</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Q: What does ADV and DOS stand for?</string>
+		<key>answer</key>
+		<string>ADV: Advance ticket price DOS: Day Of Show ticket price.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Q: What is the Fox Theatre&apos;s capacity?</string>
+		<key>answer</key>
+		<string>The Fox Theatre&apos;s capacity is 700 people.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Q: How can I join your street team?</string>
+		<key>answer</key>
+		<string>We are always looking for new street teamers and office interns! You can email us at office@foxtheatre.com or just drop in during our office hours (Mon-Fri, 10am-6pm).</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Q: Is there any seating inside the Fox?</string>
+		<key>answer</key>
+		<string>The Fox Theatre is standing room only. We do have bench seating available on the outer walls of the room, these are first come, first serve. If you have a physical condition and you are not able to stand for the duration of the concert, please contact us in advance at 303-447-0095 and we will be happy to accommodate you.Q: How can I get my band to play the Fox?Mail or drop off a CD and contact information to our Booking Department - 1135 13th Street, Boulder CO 80302.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Q: Is The Fox available for private parties and rentals?</string>
+		<key>answer</key>
+		<string>Yes. Please contact Gabby at 303-447-0095 ext 10 for more information.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Q: How can I find out about the latest concert additions?</string>
+		<key>answer</key>
+		<string>Our website and iPhone app are updated daily and is the best place to find information.</string>
+	</dict>
+</array>
+</plist>
