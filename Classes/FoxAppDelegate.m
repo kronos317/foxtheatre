@@ -9,7 +9,7 @@
 #import "FoxAppDelegate.h"
 #import "ASIFormDataRequest.h"
 #import "JSON.h"
-#import "Beacon.h"
+//#import "Beacon.h"
 
 #define kApplicationKey @"Mf40hcHsTyOzcNmVlfxSVw"
 #define kApplicationSecret @"foYs8e2oTpeAg60ZtUFvoQ"
@@ -27,7 +27,7 @@
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-	[Beacon initAndStartBeaconWithApplicationCode:@"261b7a820080816f020402a0b1074463" useCoreLocation:NO useOnlyWiFi:NO];
+//	[Beacon initAndStartBeaconWithApplicationCode:@"261b7a820080816f020402a0b1074463" useCoreLocation:NO useOnlyWiFi:NO];
 	
 	[[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
 	
@@ -539,9 +539,9 @@
 	return ([NSString stringWithContentsOfURL:[NSURL URLWithString:@"http://www.google.com/"] encoding:NSUTF8StringEncoding error:nil]!=NULL)?YES:NO;
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application {
-    [Beacon endBeacon];
-}
+//- (void)applicationWillTerminate:(UIApplication *)application {
+//    [Beacon endBeacon];
+//}
 
 - (void)dealloc {
     [tabBarController release];

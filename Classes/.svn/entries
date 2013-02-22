@@ -162,6 +162,13 @@ ragedigi
 
 2048
 
+ExternalWebViewController.xib
+file
+0
+
+
+add
+
 FBConnect
 dir
 
@@ -233,6 +240,13 @@ ragedigi
 
 28296
 
+ExternalWebViewController.h
+file
+0
+
+
+add
+
 ShowCell.h
 file
 
@@ -269,6 +283,13 @@ ragedigi
 
 JSON
 dir
+
+ExternalWebViewController.m
+file
+0
+
+
+add
 
 ShowCell.m
 file
@@ -377,7 +398,7 @@ file
 
 
 
-
+delete
 2010-03-02T16:38:35.000000Z
 454049b8b13c3ff329eefc7b2e9cd6ad
 2010-02-22T23:53:28.036669Z
@@ -508,40 +529,6 @@ ragedigi
 
 20768
 
-WallViewController.h
-file
-
-
-
-
-2010-03-02T16:38:35.000000Z
-4eb39fbdeeec535cd733f2ee6ec15caf
-2010-02-22T23:53:28.036669Z
-693
-ragedigi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2248
-
 GalleryViewController.h
 file
 
@@ -575,6 +562,40 @@ ragedigi
 
 
 706
+
+WallViewController.h
+file
+
+
+
+delete
+2010-03-02T16:38:35.000000Z
+4eb39fbdeeec535cd733f2ee6ec15caf
+2010-02-22T23:53:28.036669Z
+693
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2248
 
 InfoViewController.m
 file
@@ -610,40 +631,6 @@ ragedigi
 
 6709
 
-WallViewController.m
-file
-
-
-
-
-2010-03-02T16:38:35.000000Z
-924e27ae8912a17498d1ef1a5e9c0885
-2010-02-22T23:53:28.036669Z
-693
-ragedigi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-27952
-
 GalleryViewController.m
 file
 
@@ -678,6 +665,40 @@ ragedigi
 
 6158
 
+WallViewController.m
+file
+
+
+
+delete
+2010-03-02T16:38:35.000000Z
+924e27ae8912a17498d1ef1a5e9c0885
+2010-02-22T23:53:28.036669Z
+693
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27952
+
 AudioStreamer.h
 file
 
@@ -711,6 +732,13 @@ ragedigi
 
 
 4661
+
+SocialViewController.xib
+file
+0
+
+
+add
 
 MapAnnotation.h
 file
@@ -779,6 +807,13 @@ ragedigi
 
 
 42002
+
+SocialViewController.h
+file
+0
+
+
+add
 
 Reachability
 dir
@@ -854,39 +889,12 @@ ragedigi
 
 290
 
-PhotoViewController.xib
+SocialViewController.m
 file
+0
 
 
-
-
-2010-03-02T16:38:35.000000Z
-6d763832d68c635a8b4587d77e5ff7a4
-2009-11-10T18:59:07.264883Z
-113
-ragedigi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-34662
+add
 
 SetsCell.m
 file
@@ -921,6 +929,40 @@ ragedigi
 
 
 651
+
+PhotoViewController.xib
+file
+
+
+
+
+2010-03-02T16:38:35.000000Z
+6d763832d68c635a8b4587d77e5ff7a4
+2009-11-10T18:59:07.264883Z
+113
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+34662
 
 ASI
 dir

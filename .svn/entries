@@ -26,73 +26,19 @@ has-props
 
 f94f45de-e7a6-de11-a67d-00304865ddb0
 
-Fox-Info.plist
+web_forward_button.png
 file
+0
 
 
-
-
-2010-03-02T16:38:35.000000Z
-1460a1a76b44a585bba8b94b1634ff0b
-2010-02-25T18:28:48.573677Z
-749
-ragedigi
+add
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-963
-
-SetsCell.xib
-file
-
-
-
-
-2010-03-02T16:38:35.000000Z
-23c52586194fcc265d900bd869f0ae21
-2010-02-22T23:53:28.036669Z
-693
-ragedigi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21316
+has-props
+has-prop-mods
 
 main.m
 file
@@ -128,16 +74,16 @@ ragedigi
 
 356
 
-ShowCell.xib
+Fox-Info.plist
 file
 
 
 
 
 2010-03-02T16:38:35.000000Z
-f48ddbd36d3898abf55f10c0e5779918
-2010-02-22T23:53:28.036669Z
-693
+1460a1a76b44a585bba8b94b1634ff0b
+2010-02-25T18:28:48.573677Z
+749
 ragedigi
 
 
@@ -160,7 +106,7 @@ ragedigi
 
 
 
-28825
+963
 
 Fox_Prefix.pch
 file
@@ -230,8 +176,155 @@ ragedigi
 
 6226
 
-Images
+web_back_button@2x.png
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+web_output_button@2x.png
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Fox.xcodeproj
 dir
+
+web_forward_button@2x.png
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+MainWindow.xib
+file
+
+
+
+
+2010-03-02T16:38:35.000000Z
+88b28260712098f29fefe82e74da7eb3
+2009-11-09T06:25:19.184105Z
+106
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32791
+
+Classes
+dir
+
+SetsCell.xib
+file
+
+
+
+
+2010-03-02T16:38:35.000000Z
+23c52586194fcc265d900bd869f0ae21
+2010-02-22T23:53:28.036669Z
+693
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21316
+
+ShowCell.xib
+file
+
+
+
+
+2010-03-02T16:38:35.000000Z
+f48ddbd36d3898abf55f10c0e5779918
+2010-02-22T23:53:28.036669Z
+693
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+28825
 
 Entitlements.plist
 file
@@ -267,6 +360,9 @@ ragedigi
 
 225
 
+Images
+dir
+
 Default.png
 file
 
@@ -300,9 +396,6 @@ has-props
 
 
 244829
-
-Fox.xcodeproj
-dir
 
 Icon.png
 file
@@ -338,40 +431,31 @@ has-props
 
 6870
 
-Classes
-dir
-
-MainWindow.xib
+web_back_button.png
 file
+0
 
 
-
-
-2010-03-02T16:38:35.000000Z
-88b28260712098f29fefe82e74da7eb3
-2009-11-09T06:25:19.184105Z
-106
-ragedigi
+add
 
 
 
 
 
+has-props
+has-prop-mods
+
+web_output_button.png
+file
+0
+
+
+add
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-32791
+has-props
+has-prop-mods
 
