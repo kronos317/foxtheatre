@@ -28,7 +28,7 @@ static NSString* kLoginURL = @"http://www.facebook.com/login.php";
 @implementation FBLoginDialog
 
 #if TARGET_IPHONE_SIMULATOR
-@synthesize session = _session;
+//@synthesize session = _session;
 #endif
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

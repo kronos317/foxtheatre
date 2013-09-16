@@ -22,7 +22,7 @@
 	
 //	self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"header_logo.png"]];
 	
-	facebookWebView.frame = CGRectMake(-320,facebookWebView.frame.origin.y,320,facebookWebView.frame.size.height);
+	facebookWebView.frame = CGRectMake(320,facebookWebView.frame.origin.y,320,facebookWebView.frame.size.height);
 	twitterWebView.frame = CGRectMake(0,twitterWebView.frame.origin.y,320,twitterWebView.frame.size.height);
 	
 	[self reloadContent];
@@ -63,9 +63,9 @@
 					 animations:^{
 						 if(sender == facebookButton) {
 							 facebookWebView.frame = CGRectMake(0,facebookWebView.frame.origin.y,320,facebookWebView.frame.size.height);
-							 twitterWebView.frame = CGRectMake(320,twitterWebView.frame.origin.y,320,twitterWebView.frame.size.height);
+							 twitterWebView.frame = CGRectMake(-320,twitterWebView.frame.origin.y,320,twitterWebView.frame.size.height);
 						 } else {
-							 facebookWebView.frame = CGRectMake(-320,facebookWebView.frame.origin.y,320,facebookWebView.frame.size.height);
+							 facebookWebView.frame = CGRectMake(320,facebookWebView.frame.origin.y,320,facebookWebView.frame.size.height);
 							 twitterWebView.frame = CGRectMake(0,twitterWebView.frame.origin.y,320,twitterWebView.frame.size.height);
 						 }
 					 }

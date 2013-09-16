@@ -9,6 +9,7 @@
 #import "FoxAppDelegate.h"
 #import "ASIFormDataRequest.h"
 #import "JSON.h"
+#import "RDNavigationController.h"
 //#import "Beacon.h"
 
 #define kApplicationKey @"Mf40hcHsTyOzcNmVlfxSVw"
@@ -29,6 +30,8 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
 //	[Beacon initAndStartBeaconWithApplicationCode:@"261b7a820080816f020402a0b1074463" useCoreLocation:NO useOnlyWiFi:NO];
 	
+//	NSLog(@"Window Size: %.0fx%.0f",window.bounds.size.width,window.bounds.size.height);
+	
 	[[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
 	
 	NSLog(@"Registering for push notifications...");    
@@ -40,8 +43,8 @@
 	[self performSelectorInBackground:@selector(setupDefaults) withObject:nil];
 	
 	UIImageView *bg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bg.png"]];
-	bg.frame = CGRectMake(0,0,320,480);
-	[window addSubview:bg];
+	bg.frame = CGRectMake(0,0,320,window.frame.size.height);
+	[window insertSubview:bg atIndex:0];
 	[bg release];
     
     headerView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,40)];
@@ -51,8 +54,7 @@
 	[headerBG release];
 	[headerView release];
 	
-	[window addSubview:tabBarController.view];
-	
+	//[window addSubview:tabBarController.view];
 	
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *documentsDirectory = [paths objectAtIndex:0];
@@ -139,11 +141,11 @@
 	[textFieldBar removeFromSuperview];
 	[window addSubview:textFieldBar];
 	
-	if([[defaults objectForKey:@"signedup"] isEqualToString:@"1"]) {
+//	if([[defaults objectForKey:@"signedup"] isEqualToString:@"1"]) {
 		[self hideSplashView];
-	} else {
-		[self showSignUpForm];
-	}
+//	} else {
+//		[self showSignUpForm];
+//	}
 }
 
 - (void)toggleAdvert {
