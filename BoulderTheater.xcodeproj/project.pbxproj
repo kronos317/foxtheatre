@@ -1727,8 +1727,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer: AoGe He (G5X48325TH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: AoGe He (G5X48325TH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Lin (2Y98ET3L55)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Lin (2Y98ET3L55)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1751,8 +1751,8 @@
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Boulder Theater";
-				PROVISIONING_PROFILE = "1011FA42-D9B3-44A0-ACF3-62B994989D8C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1011FA42-D9B3-44A0-ACF3-62B994989D8C";
+				PROVISIONING_PROFILE = "c5de1285-8cab-46d8-a1c5-d27e23787441";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "c5de1285-8cab-46d8-a1c5-d27e23787441";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "Classes/**";
@@ -1766,8 +1766,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer: AoGe He (G5X48325TH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: AoGe He (G5X48325TH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Lin (2Y98ET3L55)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Lin (2Y98ET3L55)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BoulderTheater_Prefix.pch;
@@ -1788,8 +1788,8 @@
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Boulder Theater";
-				PROVISIONING_PROFILE = "1011FA42-D9B3-44A0-ACF3-62B994989D8C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1011FA42-D9B3-44A0-ACF3-62B994989D8C";
+				PROVISIONING_PROFILE = "c5de1285-8cab-46d8-a1c5-d27e23787441";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "c5de1285-8cab-46d8-a1c5-d27e23787441";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "Classes/**";
@@ -1800,16 +1800,16 @@
 		998DC74310AC7813000DEC7A /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: AoGe He (G5X48325TH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: AoGe He (G5X48325TH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Lin (2Y98ET3L55)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Lin (2Y98ET3L55)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "Boulder Theater";
-				PROVISIONING_PROFILE = "1011FA42-D9B3-44A0-ACF3-62B994989D8C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1011FA42-D9B3-44A0-ACF3-62B994989D8C";
+				PROVISIONING_PROFILE = "c5de1285-8cab-46d8-a1c5-d27e23787441";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "c5de1285-8cab-46d8-a1c5-d27e23787441";
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;
@@ -1820,8 +1820,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
-				CODE_SIGN_IDENTITY = "iPhone Developer: AoGe He (G5X48325TH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: AoGe He (G5X48325TH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Lin (2Y98ET3L55)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Lin (2Y98ET3L55)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BoulderTheater_Prefix.pch;
@@ -1842,8 +1842,8 @@
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Boulder Theater";
-				PROVISIONING_PROFILE = "1011FA42-D9B3-44A0-ACF3-62B994989D8C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1011FA42-D9B3-44A0-ACF3-62B994989D8C";
+				PROVISIONING_PROFILE = "c5de1285-8cab-46d8-a1c5-d27e23787441";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "c5de1285-8cab-46d8-a1c5-d27e23787441";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "Classes/**";
@@ -1854,16 +1854,16 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: AoGe He (G5X48325TH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: AoGe He (G5X48325TH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Lin (2Y98ET3L55)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Lin (2Y98ET3L55)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "Boulder Theater";
-				PROVISIONING_PROFILE = "1011FA42-D9B3-44A0-ACF3-62B994989D8C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1011FA42-D9B3-44A0-ACF3-62B994989D8C";
+				PROVISIONING_PROFILE = "c5de1285-8cab-46d8-a1c5-d27e23787441";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "c5de1285-8cab-46d8-a1c5-d27e23787441";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1871,16 +1871,16 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: AoGe He (G5X48325TH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: AoGe He (G5X48325TH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Lin (2Y98ET3L55)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Lin (2Y98ET3L55)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "Boulder Theater";
-				PROVISIONING_PROFILE = "1011FA42-D9B3-44A0-ACF3-62B994989D8C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1011FA42-D9B3-44A0-ACF3-62B994989D8C";
+				PROVISIONING_PROFILE = "c5de1285-8cab-46d8-a1c5-d27e23787441";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "c5de1285-8cab-46d8-a1c5-d27e23787441";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
