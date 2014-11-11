@@ -1,6 +1,6 @@
 //
 //  GalleryViewController.h
-//  Fox
+//  BoulderTheater
 //
 //  Created by Keiran on 11/6/09.
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "PhotoViewController.h"
-#import "FoxAppDelegate.h"
+#import "BoulderTheaterAppDelegate.h"
 
 
 @interface GalleryViewController : UIViewController <UITableViewDelegate,UITableViewDataSource> {
@@ -16,7 +16,7 @@
 	NSUserDefaults *defaults;
 	NSString *currentView;
 	
-	FoxAppDelegate *appDelegate;
+	BoulderTheaterAppDelegate *appDelegate;
 	
 	PhotoViewController *photoViewController;
 	UINavigationController *photosViewer;
@@ -30,7 +30,5 @@
 - (void)reloadTables;
 
 - (void)hidePhotoViewer;
-
-- (BOOL)isConnectedToInternet;
 
 @end

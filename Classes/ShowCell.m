@@ -1,6 +1,6 @@
 //
 //  ShowCell.m
-//  Fox
+//  VenueConnect
 //
 //  Created by Keiran on 11/6/09.
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
@@ -11,7 +11,7 @@
 
 @implementation ShowCell
 
-@synthesize day,date,show,doors;
+@synthesize day,date,show,showtime,doorsLabel,doors;
 
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {

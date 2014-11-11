@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appName</key>
+	<string>Fox Theatre</string>
+	<key>venueName</key>
+	<string>Fox Theatre</string>
+	<key>venueURL</key>
+	<string>http://www.bouldertheater.com</string>
+	<key>venueLatitude</key>
+	<real>40.007744</real>
+	<key>venueLongitude</key>
+	<real>-105.276058</real>
+	<key>venueCity</key>
+	<string>Boulder</string>
+	<key>venueState</key>
+	<string>CO</string>
+	<key>venueBoxCallNumber</key>
+	<string>3034433399</string>
+	<key>venueBoxCallNumberTitle</key>
+	<string>+1 (303) 443-3399</string>
+	<key>venueBoxTextNumber</key>
+	<string>1(303)443-3399</string>
+	<key>venueBoxTextNumberTitle</key>
+	<string>+1 (303) 443-3399</string>
+	<key>venueMainCallNumber</key>
+	<string>3034470095</string>
+	<key>venueMainCallNumberTitle</key>
+	<string>+1 (303) 447-0095</string>
+	<key>venueMainTextNumber</key>
+	<string>1(303)447-0095</string>
+	<key>venueMainTextNumberTitle</key>
+	<string>+1 (303) 447-0095</string>
+	<key>appServerFeedURL</key>
+	<string>http://ragedigitalinc.com/apps/feeds.php?salt=ng35DGnste3&amp;app_name=Fox</string>
+	<key>appServerUserURL</key>
+	<string>http://www.ragedigitalinc.com/apps/user.php?salt=ng35DGnste3&amp;app_name=Boulder</string>
+	<key>defaultJSONCalendarFeedURL</key>
+	<string>http://foxtheatre.com/json_upcomingshows.aspx</string>
+	<key>defaultTwitterFeedURL</key>
+	<string>https://mobile.twitter.com/foxtheatreco</string>
+	<key>defaultFacebookFeedURL</key>
+	<string>http://m.facebook.com/foxtheatreboulder</string>
+	<key>flurryAPIKey</key>
+	<string>7D7Y5HQBX75QWZP676C7</string>
+	<key>pushNotificationApplicationKey</key>
+	<string>Mf40hcHsTyOzcNmVlfxSVw</string>
+	<key>pushNotificationApplicationSecret</key>
+	<string>foYs8e2oTpeAg60ZtUFvoQ</string>
+	<key>twitterConsumerKey</key>
+	<string>WwjiEimC3Tj1zkLcIyCcng</string>
+	<key>twitterConsumerSecret</key>
+	<string>icPwF1JsS3U7GLdJbfPzmecwQ9bjaHn2uETXv5steo</string>
+	<key>facebookAPIKey</key>
+	<string>3c0844fed1d212e4cc8cac3f02d4afa3</string>
+	<key>facebookAPISecret</key>
+	<string>5b091b899a52d70f612567df0f0391b1</string>
+	<key>facebookPostIcon</key>
+	<string>http://www.ragedigi.com/apps/images/BoulderFBIcon.png</string>
+	<key>twitterCommentSignature</key>
+	<string>bouldertheater</string>
+	<key>rageDigitalBaseURL</key>
+	<string>http://www.ragedigi.com</string>
+	<key>internetConnectionCheckURL</key>
+	<string>http://www.ragedigi.com/_check.php</string>
+	<key>adImagesURL</key>
+	<string>http://www.ragedigi.com/apps/images/ads/</string>
+	<key>uploadPostImageURL</key>
+	<string>http://www.ragedigitalinc.com/apps/Cowbell/wall_photos/uploading.jpg</string>
+	<key>appStoreURL</key>
+	<string>http://itunes.com/apps/boulderthtr</string>
+	<key>crittercismAppId</key>
+	<string>544516fd1787845621000001</string>
+</dict>
+</plist>

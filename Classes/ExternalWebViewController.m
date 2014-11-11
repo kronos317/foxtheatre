@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad
 {
+	//NSLog(@"Load0");
     [super viewDidLoad];
 	
 //	self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"header_logo.png"]];

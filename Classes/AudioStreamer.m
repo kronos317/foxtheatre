@@ -428,6 +428,9 @@ void ASReadStreamCallBack
 // Parameters:
 //    anErrorCode - the error condition
 //
+
+// ChrisLin Modified
+/*
 - (void)setState:(AudioStreamerState)aStatus
 {
 	@synchronized(self)
@@ -448,6 +451,7 @@ void ASReadStreamCallBack
 		}
 	}
 }
+*/
 
 //
 // isPlaying

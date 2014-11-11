@@ -1,6 +1,6 @@
 //
 //  GalleryViewController.m
-//  Fox
+//  VenueConnect
 //
 //  Created by Keiran on 11/6/09.
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
@@ -9,15 +9,16 @@
 #import "GalleryViewController.h"
 #import "SetsCell.h"
 #import "JSON.h"
-
+#import "VenueConnect.h"
 
 @implementation GalleryViewController
 
 
 - (void)viewDidLoad {
+	//NSLog(@"Load1"); //Nic
     [super viewDidLoad];
 	defaults = [NSUserDefaults standardUserDefaults];
-	appDelegate = (FoxAppDelegate *)[[UIApplication sharedApplication] delegate];
+	appDelegate = (BoulderTheaterAppDelegate *)[[UIApplication sharedApplication] delegate];
 	
 	currentView = @"sets";
 	backButton.alpha = 0.0;
@@ -46,7 +47,7 @@
 - (void)loadSets {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	
-	if([self isConnectedToInternet]) {
+	if([[VenueConnect sharedVenueConnect] isConnectedToInternet]) {
 		NSURLRequest *urlRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:[defaults objectForKey:@"gallery_feed"]] cachePolicy:NSURLRequestReturnCacheDataElseLoad timeoutInterval:30];
 		NSData *urlData;
 		NSURLResponse *response;
@@ -67,7 +68,7 @@
 			label.textColor = [UIColor whiteColor];
 			label.numberOfLines = 0;
 			label.font = [UIFont boldSystemFontOfSize:13];
-			label.textAlignment = UITextAlignmentCenter;
+			label.textAlignment = NSTextAlignmentCenter;
 			label.text = @"You must be connected to the internet to view the photo galleries.";
 			[label sizeToFit];
 			[self.view addSubview:label];
@@ -117,11 +118,11 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 	
-	if([self isConnectedToInternet]) {
+	if([[VenueConnect sharedVenueConnect] isConnectedToInternet]) {
 		appDelegate.advert.alpha = 0.0;
 		photosViewer.navigationBar.topItem.title = [[[sets objectAtIndex:indexPath.row] objectForKey:@"title"] objectForKey:@"_content"];
-		[photoViewController setSource:[NSString stringWithFormat:[defaults objectForKey:@"set_string"],[[sets objectAtIndex:indexPath.row] objectForKey:@"id"]]];
-		[appDelegate.tabBarController presentModalViewController:photosViewer animated:YES];
+		[photoViewController setSource: @[[NSString stringWithFormat:[defaults objectForKey:@"set_string"],[[sets objectAtIndex:indexPath.row] objectForKey:@"id"]]]];
+        [appDelegate.tabBarController presentViewController:photosViewer animated:YES completion:nil];
 	} else {
 		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"You must be connected to the internet to view this gallery's photos." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
 		[alert show];
@@ -141,7 +142,7 @@
 	appDelegate.advert.alpha = 1.0;
 	[UIView commitAnimations];
 	
-	[appDelegate.tabBarController dismissModalViewControllerAnimated:YES];
+    [appDelegate.tabBarController dismissViewControllerAnimated:YES completion:nil];
 }
 
 /*
@@ -151,10 +152,6 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 */
-
-- (BOOL)isConnectedToInternet {
-	return ([NSString stringWithContentsOfURL:[NSURL URLWithString:@"http://www.google.com/"] encoding:NSUTF8StringEncoding error:nil]!=NULL)?YES:NO;
-}
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.

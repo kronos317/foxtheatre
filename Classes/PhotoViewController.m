@@ -36,10 +36,11 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"identifier"];
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"photoview-cell"];
 	
 	if (cell == nil) {
-		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:@"identifier"] autorelease];
+		// cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:@"identifier"] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"photoview-cell"] autorelease];
 	}
 	
 	cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
@@ -130,13 +131,13 @@
 			NSArray *pieces = [[[d objectForKey:@"media"] objectForKey:@"m"] componentsSeparatedByString:@"/"];
 			NSString *clubImage = [NSString stringWithFormat:@"/%@",[pieces lastObject]];
 			NSLog(@"i: %@",clubImage);
-			if(![[NSFileManager defaultManager] fileExistsAtPath:[temp stringByAppendingFormat:clubImage]]) {
+			if(![[NSFileManager defaultManager] fileExistsAtPath:[temp stringByAppendingString:clubImage]]) {
 				NSURL *myURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@",[[[d objectForKey:@"media"] objectForKey:@"m"] stringByReplacingOccurrencesOfString:@" " withString:@"%20"]]];
 				NSData *data = [NSData dataWithContentsOfURL:myURL];
 				if(!data) {
 					clubImage = nil;
 				} else {
-					[data writeToFile:[temp stringByAppendingFormat:clubImage] atomically:YES];
+					[data writeToFile:[temp stringByAppendingString:clubImage] atomically:YES];
 				}
 			}
 			
@@ -161,13 +162,13 @@
 			NSArray *pieces = [[[d objectForKey:@"media"] objectForKey:@"m"] componentsSeparatedByString:@"/"];
 			NSString *clubImage = [NSString stringWithFormat:@"/%@",[pieces lastObject]];
 			NSLog(@"i: %@",clubImage);
-			if(![[NSFileManager defaultManager] fileExistsAtPath:[temp stringByAppendingFormat:clubImage]]) {
+			if(![[NSFileManager defaultManager] fileExistsAtPath:[temp stringByAppendingString:clubImage]]) {
 				NSURL *myURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@",[[[d objectForKey:@"media"] objectForKey:@"m"] stringByReplacingOccurrencesOfString:@" " withString:@"%20"]]];
 				NSData *data = [NSData dataWithContentsOfURL:myURL];
 				if(!data) {
 					clubImage = nil;
 				} else {
-					[data writeToFile:[temp stringByAppendingFormat:clubImage] atomically:YES];
+					[data writeToFile:[temp stringByAppendingString:clubImage] atomically:YES];
 				}
 				
 				[self performSelectorOnMainThread:@selector(refreshThumb:) withObject:d waitUntilDone:NO];
@@ -188,7 +189,7 @@
 	NSArray *pieces = [[[d objectForKey:@"media"] objectForKey:@"m"] componentsSeparatedByString:@"/"];
 	NSString *clubImage = [NSString stringWithFormat:@"/%@",[pieces lastObject]];
 	
-	UIImage *thumb = [UIImage imageWithContentsOfFile:[temp stringByAppendingFormat:clubImage]];
+	UIImage *thumb = [UIImage imageWithContentsOfFile:[temp stringByAppendingString:clubImage]];
 	
 	[b setImage:thumb forState:UIControlStateNormal];
 	i.image = thumb;
@@ -222,7 +223,7 @@
 		NSArray *pieces = [[[d objectForKey:@"media"] objectForKey:@"m"] componentsSeparatedByString:@"/"];
 		NSString *clubImage = [NSString stringWithFormat:@"/%@",[pieces lastObject]];
 		
-		UIImage *thumb = [UIImage imageWithContentsOfFile:[temp stringByAppendingFormat:clubImage]];
+		UIImage *thumb = [UIImage imageWithContentsOfFile:[temp stringByAppendingString:clubImage]];
 
 		[button setImage:thumb forState:UIControlStateNormal];
 		[thumbs addSubview:button];

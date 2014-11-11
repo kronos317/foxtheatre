@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appName</key>
+	<string>BoulderThtr</string>
+	<key>venueName</key>
+	<string>Boulder Theater</string>
+	<key>venueURL</key>
+	<string>http://www.bouldertheater.com</string>
+	<key>venueLatitude</key>
+	<real>40.019136</real>
+	<key>venueLongitude</key>
+	<real>-105.277208</real>
+	<key>venueCity</key>
+	<string>Boulder</string>
+	<key>venueState</key>
+	<string>CO</string>
+	<key>appServerFeedURL</key>
+	<string>http://www.ragedigitalinc.com/apps/feeds.php?salt=ng35DGnste3&amp;app_name=Boulder</string>
+	<key>appServerUserURL</key>
+	<string>http://www.ragedigitalinc.com/apps/user.php?salt=ng35DGnste3&amp;app_name=Boulder</string>
+	<key>defaultJSONCalendarFeedURL</key>
+	<string>http://www.bouldertheater.com/json_upcomingshows.php</string>
+	<key>defaultTwitterFeedURL</key>
+	<string>http://twitter.com/status/user_timeline/BoulderTheater.json</string>
+	<key>defaultFacebookFeedURL</key>
+	<string>http://graph.facebook.com/BoulderTheater/feed</string>
+	<key>flurryAPIKey</key>
+	<string>ISW2TKZLZH1CRXC2K836</string>
+	<key>pushNotificationApplicationKey</key>
+	<string>V281kQTVTUKTJhP26d1h1w</string>
+	<key>pushNotificationApplicationSecret</key>
+	<string>TQcFxEFDSi-OL-VDwO0r2g</string>
+	<key>twitterConsumerKey</key>
+	<string>WwjiEimC3Tj1zkLcIyCcng</string>
+	<key>twitterConsumerSecret</key>
+	<string>icPwF1JsS3U7GLdJbfPzmecwQ9bjaHn2uETXv5steo</string>
+	<key>facebookAPIKey</key>
+	<string>3c0844fed1d212e4cc8cac3f02d4afa3</string>
+	<key>facebookAPISecret</key>
+	<string>5b091b899a52d70f612567df0f0391b1</string>
+	<key>facebookPostIcon</key>
+	<string>http://www.ragedigi.com/apps/images/BoulderFBIcon.png</string>
+	<key>twitterCommentSignature</key>
+	<string>bouldertheater</string>
+	<key>rageDigitalBaseURL</key>
+	<string>http://www.ragedigi.com</string>
+	<key>internetConnectionCheckURL</key>
+	<string>http://www.ragedigi.com/_check.php</string>
+	<key>adImagesURL</key>
+	<string>http://www.ragedigi.com/apps/images/ads/</string>
+	<key>uploadPostImageURL</key>
+	<string>http://www.ragedigitalinc.com/apps/Cowbell/wall_photos/uploading.jpg</string>
+	<key>appStoreURL</key>
+	<string>http://itunes.com/apps/boulderthtr</string>
+</dict>
+</plist>

@@ -1,14 +1,14 @@
 10
 
 dir
-809
-svn+ssh://ragedigi@ilwe.pair.com/usr/home/ragedigi/svn/repos/Apps/Fox/Classes
+1689
+svn+ssh://ragedigi@ilwe.pair.com/usr/home/ragedigi/svn/repos/Apps/BoulderTheater/Classes
 svn+ssh://ragedigi@ilwe.pair.com/usr/home/ragedigi/svn/repos
 
 
 
-2010-02-25T18:28:48.573677Z
-749
+2010-12-31T03:31:59.513909Z
+1685
 ragedigi
 
 
@@ -26,16 +26,84 @@ ragedigi
 
 f94f45de-e7a6-de11-a67d-00304865ddb0
 
+UIImage+RoundedCorner.m
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+d7fad7835e94a289a33da2190aefdb1e
+2010-12-28T17:08:59.790784Z
+1683
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3569
+
+VenueConnect.h
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+2835d3a2290b3fb21c7f50a24fb09dcd
+2010-12-28T17:08:59.790784Z
+1683
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3285
+
 PhotoViewController.m
 file
 
 
 
 
-2010-03-02T16:38:35.000000Z
-dee54e4b88e36579129a3bf0c089d1fa
-2010-02-22T23:53:28.036669Z
-693
+2011-01-04T22:11:39.000000Z
+0c5d83faf956f724360601d941480360
+2010-12-31T03:31:59.513909Z
+1685
 ragedigi
 
 
@@ -60,16 +128,16 @@ ragedigi
 
 13482
 
-CalendarViewController.xib
+VenueConnect.m
 file
 
 
 
 
-2010-03-02T16:38:35.000000Z
-08cb7a849ee367ae37f233d04ed5f110
-2010-02-25T18:28:48.573677Z
-749
+2011-01-04T22:11:39.000000Z
+f9ee54dbed0b5326c382d04947ba157f
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -92,7 +160,41 @@ ragedigi
 
 
 
-74320
+3988
+
+CalendarViewController.xib
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+16e05dab4417659372c470fec923afcb
+2010-12-31T03:31:59.513909Z
+1685
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+80408
 
 UITableViewCellContentView.h
 file
@@ -100,10 +202,10 @@ file
 
 
 
-2010-03-02T16:38:35.000000Z
+2011-01-04T22:11:39.000000Z
 af8e62bf78017be74bc77e73bfb0cbd1
-2010-02-19T23:37:01.747268Z
-680
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -134,10 +236,10 @@ file
 
 
 
-2010-03-02T16:38:35.000000Z
-c7f9f5ff0f11632d0e10c6c183df5b74
-2010-02-25T18:28:48.573677Z
-749
+2011-01-04T22:11:39.000000Z
+cb146f502b6a573da11d40d2ddb7daa5
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -160,7 +262,7 @@ ragedigi
 
 
 
-2048
+2087
 
 ExternalWebViewController.xib
 file
@@ -172,16 +274,50 @@ add
 FBConnect
 dir
 
+ShowCell.xib
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+832ed979b6d219e778dffc8044683087
+2010-12-28T17:08:59.790784Z
+1683
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+31406
+
 UITableViewCellContentView.m
 file
 
 
 
 
-2010-03-02T16:38:35.000000Z
+2011-01-04T22:11:39.000000Z
 56128785a129854f51086e36cfb1cd32
-2010-02-19T23:37:01.747268Z
-680
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -206,16 +342,16 @@ ragedigi
 
 369
 
-CalendarViewController.m
+UIImage+Resize.h
 file
 
 
 
 
-2010-03-02T16:38:35.000000Z
-2f02e38d422979590dc0aca6e34df319
-2010-02-25T18:28:48.573677Z
-749
+2011-01-04T22:11:39.000000Z
+2863be94d02e727de5396defc1a2cab9
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -238,7 +374,41 @@ ragedigi
 
 
 
-28296
+824
+
+CalendarViewController.m
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+ffceb9bd2c9cab518b5581431234c9c4
+2010-12-31T03:31:59.513909Z
+1685
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+34966
 
 ExternalWebViewController.h
 file
@@ -253,10 +423,10 @@ file
 
 
 
-2010-03-02T16:38:35.000000Z
-482f479947005355b18d48d35c3625f4
-2009-11-09T06:25:19.184105Z
-106
+2011-01-04T22:11:39.000000Z
+12bd6df1c95fcd5f164b04a3dafc3c15
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -279,7 +449,41 @@ ragedigi
 
 
 
-513
+700
+
+UIImage+Resize.m
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+c04fb2ba038da349c5d013436f0692bb
+2010-12-28T17:08:59.790784Z
+1683
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8372
 
 JSON
 dir
@@ -291,50 +495,16 @@ file
 
 add
 
-ShowCell.m
-file
-
-
-
-
-2010-03-02T16:38:35.000000Z
-22f0ccdc955f29f9801aab35417e58bb
-2009-11-09T06:25:19.184105Z
-106
-ragedigi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-656
-
 InfoViewController.xib
 file
 
 
 
 
-2010-03-02T16:38:35.000000Z
-cb560e74f4e53d5b4250479864a3924a
-2009-11-19T23:13:38.482223Z
-135
+2011-01-04T22:11:39.000000Z
+762bc38023f93f4bd8653dbf042a25b9
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -357,18 +527,18 @@ ragedigi
 
 
 
-44750
+48274
 
-FoxAppDelegate.h
+ShowCell.m
 file
 
 
 
 
-2010-03-02T16:38:35.000000Z
-c2a6c1b29a478f0ba6545e06c9473e35
-2010-02-25T18:28:48.573677Z
-749
+2011-01-04T22:11:39.000000Z
+54148cd6955a6e60cc97d23cdc57e34e
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -391,18 +561,18 @@ ragedigi
 
 
 
-1754
+685
 
 WallViewController.xib
 file
 
 
 
-delete
-2010-03-02T16:38:35.000000Z
-454049b8b13c3ff329eefc7b2e9cd6ad
-2010-02-22T23:53:28.036669Z
-693
+
+2011-01-04T22:11:39.000000Z
+a839d72aeea08459350a0540088c080f
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -425,7 +595,7 @@ ragedigi
 
 
 
-68325
+59190
 
 GalleryViewController.xib
 file
@@ -433,10 +603,10 @@ file
 
 
 
-2010-03-02T16:38:35.000000Z
+2011-01-04T22:11:39.000000Z
 e6f9d3eb4abd74a3ffe27922ab34290f
-2010-02-22T23:53:28.036669Z
-693
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -467,10 +637,10 @@ file
 
 
 
-2010-03-02T16:38:35.000000Z
-b85fba526c7b49ebe0093f7d269795dd
-2009-11-19T23:13:38.482223Z
-135
+2011-01-04T22:11:39.000000Z
+698ab5eb14d514ae526119612704225b
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -493,18 +663,18 @@ ragedigi
 
 
 
-632
+915
 
-FoxAppDelegate.m
+WallViewController.h
 file
 
 
 
 
-2010-03-02T16:38:35.000000Z
-4c99a7103e56c93baad61cd11c7d8be2
-2010-02-25T18:28:48.573677Z
-749
+2011-01-04T22:11:39.000000Z
+e1bd3deba4e9c7c3ccfd5140c017b5cf
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -527,7 +697,7 @@ ragedigi
 
 
 
-20768
+2252
 
 GalleryViewController.h
 file
@@ -535,10 +705,10 @@ file
 
 
 
-2010-03-02T16:38:35.000000Z
-91d11493c34a9c05563689a046a51a45
-2009-11-11T22:50:51.591778Z
-116
+2011-01-04T22:11:39.000000Z
+e7d8ea7741a9466749cbcd2916f8b0aa
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -561,41 +731,7 @@ ragedigi
 
 
 
-706
-
-WallViewController.h
-file
-
-
-
-delete
-2010-03-02T16:38:35.000000Z
-4eb39fbdeeec535cd733f2ee6ec15caf
-2010-02-22T23:53:28.036669Z
-693
-ragedigi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2248
+707
 
 InfoViewController.m
 file
@@ -603,10 +739,10 @@ file
 
 
 
-2010-03-02T16:38:35.000000Z
-e055354b195561d2000ba7768dd5e3fa
-2009-11-19T23:13:38.482223Z
-135
+2011-01-04T22:11:39.000000Z
+a4262a89bb83a01186e9cd54a1e51b10
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -629,7 +765,75 @@ ragedigi
 
 
 
-6709
+10117
+
+UIImage+Alpha.h
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+225fc6a0bf08bd64e4433800d6bd0284
+2010-12-28T17:08:59.790784Z
+1683
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+365
+
+WallViewController.m
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+c9691b27ba745a8779c5284e90f13d87
+2010-12-28T17:08:59.790784Z
+1683
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+28714
 
 GalleryViewController.m
 file
@@ -637,10 +841,10 @@ file
 
 
 
-2010-03-02T16:38:35.000000Z
-4ff4424b0c002b61022fa4dc26158e0e
-2009-11-11T22:50:51.591778Z
-116
+2011-01-04T22:11:39.000000Z
+ebb49c2990cc0cd66b243a12954c4574
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -663,41 +867,7 @@ ragedigi
 
 
 
-6158
-
-WallViewController.m
-file
-
-
-
-delete
-2010-03-02T16:38:35.000000Z
-924e27ae8912a17498d1ef1a5e9c0885
-2010-02-22T23:53:28.036669Z
-693
-ragedigi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-27952
+6078
 
 AudioStreamer.h
 file
@@ -705,10 +875,10 @@ file
 
 
 
-2010-03-02T16:38:35.000000Z
+2011-01-04T22:11:39.000000Z
 2dd96036b54858dfd9a7fd4d6e4ffe98
-2009-11-11T22:50:51.591778Z
-116
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -735,10 +905,105 @@ ragedigi
 
 SocialViewController.xib
 file
-0
 
 
-add
+
+
+2011-01-04T22:11:39.000000Z
+dc456cb194fc165743c4a2c046e300b2
+2010-12-28T17:08:59.790784Z
+1683
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+53955
+
+BoulderTheaterAppDelegate.h
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+43a63ef64c0b67c8deea8f0ce0b3d22b
+2010-12-31T03:31:59.513909Z
+1685
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1925
+
+UIImage+Alpha.m
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+6ab630579b5447c6389d84b21595ce87
+2010-12-28T17:08:59.790784Z
+1683
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5756
 
 MapAnnotation.h
 file
@@ -746,10 +1011,10 @@ file
 
 
 
-2010-03-02T16:38:35.000000Z
+2011-01-04T22:11:39.000000Z
 f1b2487201236434e491244238a06093
-2009-11-09T06:25:19.184105Z
-106
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -774,16 +1039,84 @@ ragedigi
 
 568
 
+SocialViewController.h
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+39fa059b4844a5f62ddbbe62fa338c8a
+2010-12-28T17:08:59.790784Z
+1683
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1687
+
+SetsCell.xib
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+23c52586194fcc265d900bd869f0ae21
+2010-12-28T17:08:59.790784Z
+1683
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21316
+
 AudioStreamer.m
 file
 
 
 
 
-2010-03-02T16:38:35.000000Z
+2011-01-04T22:11:39.000000Z
 13b01be0d6397578514d51bfb48a87d6
-2009-11-11T22:50:51.591778Z
-116
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -808,15 +1141,42 @@ ragedigi
 
 42002
 
-SocialViewController.h
-file
-0
-
-
-add
-
 Reachability
 dir
+
+BoulderTheaterAppDelegate.m
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+55384acab25b0e938420207abd7c87c0
+2010-12-31T03:31:59.513909Z
+1685
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24453
 
 Pinch
 dir
@@ -827,10 +1187,10 @@ file
 
 
 
-2010-03-02T16:38:35.000000Z
+2011-01-04T22:11:39.000000Z
 884622b49621a4efa81edbfb095ba93b
-2009-11-09T06:25:19.184105Z
-106
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -855,16 +1215,16 @@ ragedigi
 
 438
 
-SetsCell.h
+SocialViewController.m
 file
 
 
 
 
-2010-03-02T16:38:35.000000Z
-d683517ea09b2a39cb19369fbe387f68
-2009-11-09T18:48:38.278446Z
-109
+2011-01-04T22:11:39.000000Z
+1693dc12c90f0012d4084b75746b6ddb
+2010-12-31T03:31:59.513909Z
+1685
 ragedigi
 
 
@@ -887,14 +1247,75 @@ ragedigi
 
 
 
-290
+25311
 
-SocialViewController.m
+SetsCell.h
 file
-0
 
 
-add
+
+
+2011-01-04T22:11:39.000000Z
+7634247e77a0f777029e2f274f67f391
+2010-12-28T17:08:59.790784Z
+1683
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+299
+
+venueConfiguration.plist
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+53d2f0602c6022eb1e25b456768d0ca3
+2010-12-31T03:31:59.513909Z
+1685
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2312
 
 SetsCell.m
 file
@@ -902,10 +1323,10 @@ file
 
 
 
-2010-03-02T16:38:35.000000Z
-fbe5328da1efdc0d28ff893d2ff62175
-2009-11-09T18:48:38.278446Z
-109
+2011-01-04T22:11:39.000000Z
+b8c662ef7450971b72cb7c6667ecceec
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -928,7 +1349,7 @@ ragedigi
 
 
 
-651
+660
 
 PhotoViewController.xib
 file
@@ -936,10 +1357,10 @@ file
 
 
 
-2010-03-02T16:38:35.000000Z
+2011-01-04T22:11:39.000000Z
 6d763832d68c635a8b4587d77e5ff7a4
-2009-11-10T18:59:07.264883Z
-113
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 
@@ -964,10 +1385,44 @@ ragedigi
 
 34662
 
-ASI
-dir
+UIImage+RoundedCorner.h
+file
+
+
+
+
+2011-01-04T22:11:39.000000Z
+df63f7682e49525d718addacc644483f
+2010-12-28T17:08:59.790784Z
+1683
+ragedigi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+369
 
 MGTwitterEngine
+dir
+
+ASI
 dir
 
 PhotoViewController.h
@@ -976,10 +1431,10 @@ file
 
 
 
-2010-03-02T16:38:35.000000Z
+2011-01-04T22:11:39.000000Z
 3d42504f68500ea9bb9c0b601ba5b15b
-2010-02-22T23:53:28.036669Z
-693
+2010-12-28T17:08:59.790784Z
+1683
 ragedigi
 
 

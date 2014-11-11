@@ -1,25 +1,27 @@
 //
 //  CalendarViewController.h
-//  Fox
+//  BoulderTheater
 //
 //  Created by Keiran on 11/6/09.
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "FoxAppDelegate.h"
+#import "BoulderTheaterAppDelegate.h"
 
 @class AudioStreamer;
 
 @interface CalendarViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate,UIWebViewDelegate> {
-	FoxAppDelegate *appDelegate;
+	BoulderTheaterAppDelegate *appDelegate;
 	
-	NSArray *shows;
+	NSMutableArray *shows;
 	NSMutableArray *favorites;
 	NSUserDefaults *defaults;
 	NSString *currentView;
 	NSInteger currentShow;
 	UIView *currentSongView;
+    
+    BOOL m_isShowsTable;
 	
 	AudioStreamer *streamer;
 	
@@ -41,6 +43,7 @@
 	IBOutlet UILabel *detailPresents;
 	IBOutlet UILabel *detailHeadliner;
 	IBOutlet UILabel *detailOpener;
+	IBOutlet UILabel *detailDoorsLabel;	
 	IBOutlet UILabel *detailDoorsTime;
 	IBOutlet UILabel *detailShowTime;
 	IBOutlet UILabel *detailPrice;
@@ -74,7 +77,5 @@
 - (void)hideWebButtons;
 - (IBAction)addToFavoritesAction;
 - (IBAction)backAction;
-
-- (BOOL)isConnectedToInternet;
 
 @end
