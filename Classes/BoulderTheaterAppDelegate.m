@@ -510,7 +510,7 @@
 		[UIView setAnimationDuration:0.2];
 		[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
 		[UIView setAnimationDelegate:self];	
-		splashView.alpha = 1.0;
+		// splashView.alpha = 1.0;
 		signUpView.frame = CGRectMake(10,260,300,180);
 		[UIView commitAnimations];
 	}
@@ -523,14 +523,14 @@
 	[UIView setAnimationDidStopSelector:@selector(killSplashView)];
 	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
 	[UIView setAnimationDelegate:self];	
-	splashView.alpha = 0.0;
+	// splashView.alpha = 0.0;
 	signUpView.alpha = 0.0;
 	[UIView commitAnimations];
 }
 
 - (void)showSignUpForm {
 
-	[splashView addSubview:blackBG];
+	// [splashView addSubview:blackBG];
 	
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:0.6];
