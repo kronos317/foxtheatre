@@ -173,7 +173,7 @@ Sunday       12PM - 6PM</string>
                                 <action selector="onBtnMainCallClick:" destination="-1" eventType="touchUpInside" id="cX0-iW-8Nf"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="thW-fM-5Ur">
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="thW-fM-5Ur">
                             <rect key="frame" x="158" y="171" width="149" height="47"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
