@@ -1191,8 +1191,8 @@
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Boulder Theater";
-				PROVISIONING_PROFILE = "0ca1fde5-fb53-41e5-ba83-41f843ebe87c";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0ca1fde5-fb53-41e5-ba83-41f843ebe87c";
+				PROVISIONING_PROFILE = "9eb28e83-a16c-40ba-bc7f-fcdf880c2afe";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9eb28e83-a16c-40ba-bc7f-fcdf880c2afe";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "Classes/**";
@@ -1228,8 +1228,8 @@
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Boulder Theater";
-				PROVISIONING_PROFILE = "0ca1fde5-fb53-41e5-ba83-41f843ebe87c";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0ca1fde5-fb53-41e5-ba83-41f843ebe87c";
+				PROVISIONING_PROFILE = "9eb28e83-a16c-40ba-bc7f-fcdf880c2afe";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9eb28e83-a16c-40ba-bc7f-fcdf880c2afe";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "Classes/**";
@@ -1248,8 +1248,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "Boulder Theater";
-				PROVISIONING_PROFILE = "0ca1fde5-fb53-41e5-ba83-41f843ebe87c";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0ca1fde5-fb53-41e5-ba83-41f843ebe87c";
+				PROVISIONING_PROFILE = "9eb28e83-a16c-40ba-bc7f-fcdf880c2afe";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9eb28e83-a16c-40ba-bc7f-fcdf880c2afe";
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;
@@ -1282,8 +1282,8 @@
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Boulder Theater";
-				PROVISIONING_PROFILE = "0ca1fde5-fb53-41e5-ba83-41f843ebe87c";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0ca1fde5-fb53-41e5-ba83-41f843ebe87c";
+				PROVISIONING_PROFILE = "9eb28e83-a16c-40ba-bc7f-fcdf880c2afe";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9eb28e83-a16c-40ba-bc7f-fcdf880c2afe";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "Classes/**";
@@ -1302,8 +1302,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "Boulder Theater";
-				PROVISIONING_PROFILE = "0ca1fde5-fb53-41e5-ba83-41f843ebe87c";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0ca1fde5-fb53-41e5-ba83-41f843ebe87c";
+				PROVISIONING_PROFILE = "9eb28e83-a16c-40ba-bc7f-fcdf880c2afe";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9eb28e83-a16c-40ba-bc7f-fcdf880c2afe";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1319,8 +1319,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "Boulder Theater";
-				PROVISIONING_PROFILE = "0ca1fde5-fb53-41e5-ba83-41f843ebe87c";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0ca1fde5-fb53-41e5-ba83-41f843ebe87c";
+				PROVISIONING_PROFILE = "9eb28e83-a16c-40ba-bc7f-fcdf880c2afe";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9eb28e83-a16c-40ba-bc7f-fcdf880c2afe";
 				SDKROOT = iphoneos;
 			};
 			name = Release;

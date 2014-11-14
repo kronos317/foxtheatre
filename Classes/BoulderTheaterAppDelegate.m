@@ -86,6 +86,7 @@
 	[advert setImage:[UIImage imageWithContentsOfFile:[documentsDirectory stringByAppendingString:adImage]] forState:UIControlStateDisabled];
 	[advert addTarget:self action:@selector(toggleAdvert) forControlEvents:UIControlEventTouchUpInside];
 	[window addSubview:advert];
+    advert.hidden = TRUE;
 	
 	advertFull = [UIButton buttonWithType:UIButtonTypeCustom];
 	advertFull.backgroundColor = [UIColor clearColor];
