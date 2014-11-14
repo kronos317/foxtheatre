@@ -36,7 +36,7 @@
     // webView.frame = [self moveFrameHorz:webView.frame :G_WIDTH];
     // webView.frame = [self moveFrameVert:webView.frame :G_HEIGHT];
 	
-	int y = 455;
+	int y = 460;
 	for(NSDictionary *d in faqs) {
 		UILabel *q = [[UILabel alloc] initWithFrame:CGRectMake(15,y,290,30)];
 		q.backgroundColor = [UIColor clearColor];
@@ -122,9 +122,11 @@
 - (void)webView:(UIWebView *)wView didFailLoadWithError:(NSError *)error {
 	webLoader.hidden = YES;
 	[webLoader stopAnimating];
+    /*
 	UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Load Failed" message:@"Web site failed to load. You are either not connected to the internet, or the server stopped responding" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
 	[alertView show];
 	[alertView release];	
+     */
 }
 
 - (BOOL)webView:(UIWebView *)wView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {

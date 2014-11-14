@@ -7,46 +7,51 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>D6EB9059-993F-439B-BD2E-A2E09720B410</string>
 	<key>IDESourceControlProjectName</key>
-	<string>BoulderTheater</string>
+	<string>.</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>230C1BB91593EAF30AE355A9C526F604B453774C</key>
 		<string>https://github.com/chrislin89/foxtheatre.git</string>
-		<key>DA53B020E34EFBAB21F58655EA8A4DAD2039F5B6</key>
-		<string>https://github.com/chrislin89/bouldertheater.git</string>
+		<key>f94f45de-e7a6-de11-a67d-00304865ddb0++6574</key>
+		<string>svn+ssh://ilwe.pair.com/usr/home/ragedigi/svn/repos/Apps/BoulderTheater/BoulderTheater.xcodeproj</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>BoulderTheater.xcodeproj</string>
+	<string>.</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>230C1BB91593EAF30AE355A9C526F604B453774C</key>
 		<string>../..</string>
-		<key>DA53B020E34EFBAB21F58655EA8A4DAD2039F5B6</key>
-		<string>../../../bouldertheater</string>
+		<key>f94f45de-e7a6-de11-a67d-00304865ddb0++6574</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>f94f45de-e7a6-de11-a67d-00304865ddb0++6574</key>
+		<string>svn+ssh://ilwe.pair.com/usr/home/ragedigi/svn/repos</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/chrislin89/foxtheatre.git</string>
+	<string>svn+ssh://ilwe.pair.com/usr/home/ragedigi/svn/repos/Apps/BoulderTheater/BoulderTheater.xcodeproj/.</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>230C1BB91593EAF30AE355A9C526F604B453774C</string>
+	<string>f94f45de-e7a6-de11-a67d-00304865ddb0++6574</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>DA53B020E34EFBAB21F58655EA8A4DAD2039F5B6</string>
+			<string>230C1BB91593EAF30AE355A9C526F604B453774C</string>
 			<key>IDESourceControlWCCName</key>
-			<string>bouldertheater</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
+			<string>public.vcs.subversion</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>230C1BB91593EAF30AE355A9C526F604B453774C</string>
+			<string>f94f45de-e7a6-de11-a67d-00304865ddb0++6574</string>
 			<key>IDESourceControlWCCName</key>
-			<string>foxtheatre</string>
+			<string>BoulderTheater.xcodeproj</string>
 		</dict>
 	</array>
 </dict>
